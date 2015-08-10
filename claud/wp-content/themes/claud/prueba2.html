@@ -1,0 +1,73 @@
+<div class="row">
+             <a href="<?php echo esc_url( home_url('/project-type/frontend/'));?>">
+                <div class="col s12 m6 trabajos-habilidad">
+                    <img class="responsive-img" src="<?php bloginfo('template_url')?>/img/frontend.jpg"> <!-- random image -->
+                    <div class="row">
+                        <div class="center-align trabajos-content col s12">
+                          <h3>Frontend</h3>
+                        </div> 
+                    </div>
+                </div>
+            </a> 
+            <a href="<?php echo esc_url( home_url('/project-type/webdesign/'));?>">   
+                <div class="col s12 m6 trabajos-habilidad">
+                    <img class="responsive-img" src="<?php bloginfo('template_url')?>/img/grap.jpg"> <!-- random image -->
+                    <div class="row">
+                        <div class="center-align trabajos-content col s12">
+                          <h3>WebDesign</h3>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+
+              <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="images/office.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+  <div class="">
+            
+            <div class="article-caption">
+                <div class="article-title">
+
+                    <?php
+                        if ( is_single() ) :
+                            the_title( '<h1 class="entry-title">', '</h1>' );
+                        else :
+                            the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+                        endif;
+                    ?>
+                </div>
+                <div class="article-content">
+                <p>
+                    <?php
+                        /* translators: %s: Name of current post */
+                         print get_the_excerpt(); ?>
+                </p>
+                    <?php
+                        /* translators: %s: Name of current post */
+                         
+
+                        wp_link_pages( array(
+                            'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfifteen' ) . '</span>',
+                            'after'       => '</div>',
+                            'link_before' => '<span>',
+                            'link_after'  => '</span>',
+                            'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'twentyfifteen' ) . ' </span>%',
+                            'separator'   => '<span class="screen-reader-text">, </span>',
+                        ) );
+                    ?>
+                </div>
+            </div>
+        </div>
+            
+     

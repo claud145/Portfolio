@@ -1,0 +1,247 @@
+<?php get_header(); ?>
+
+<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">reorder</i>
+    </a>
+    <ul>
+        <li>
+            <a href="#start" class="btn tooltipped btn-floating green email" data-position="left" data-delay="50" data-tooltip="Atras">
+                <i class="material-icons">navigation</i>
+            </a>
+            <li>
+            <a href="#start" class="btn tooltipped btn-floating blue" data-position="left" data-delay="50" data-tooltip="Arriba">
+                <i class="material-icons">work</i>
+            </a>
+            <li>
+            <a href="#start" class="btn tooltipped btn-floating black"data-position="left" data-delay="50" data-tooltip="Home">
+                <i class="material-icons">email</i>
+            </a>
+        </li>
+        </li>
+        </li>
+    </ul>
+</div>
+
+
+    <div id="index-banner" class="parallax-container ">
+        <div class="section no-pad-bot">
+            <div class="container banner">
+                <br><br>
+                <h1 class="banner-title header center teal-text text-lighten-2"><span>&#91;</span>CLAUD<span>&#93;</span></h1>
+                <div class="row center">
+                    <h5 class="banner-content header col s12 light">Web developer- Web designer- Photographer</h5>
+                </div>
+                <br><br>
+            </div>
+        </div>
+        <div class="parallax ">
+            <img class="banner-img"src="<?php bloginfo('template_url')?>/img/fondo.jpg"
+                alt="Unsplashed background img 1">
+        </div>
+
+    </div>
+
+        <div class="container mensaje">
+            <div class="row">
+                <div class="col s12">
+                        <div>
+                            <h3 class="mensaje-title">Quien soy?</h3>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <div>
+                        <p class="mensaje-content">
+                            Me llamo Claudio me apasiona el diseño y desarrollo web y la fotografia...
+                            
+                        </p>
+                    </div>
+                    <div>
+                        <a href="#">Ver mas</a>
+                    </div>
+                </div>
+                <div class="col s3 offset-s3 right-alig">
+                    <div>
+                        <img class="responsive-img" src="<?php bloginfo('template_url')?>/img/claudd.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+         <div class="parallax-container">  
+            <div class="parallax">
+                <img src="<?php bloginfo('template_url')?>/img/cover4.jpg">
+            </div>
+        </div>
+
+        <div class="container mensaje mensaje-habilidades center-align">
+            <div class="row">
+                <h2>Habilidades</h2>
+            </div>         
+            <div class="row">
+                <div class="col m4 s12">
+                    <h4>Frontend</h4>
+                    <div class="card mensaje-habilidades-lista">
+                        <ul>
+                            <li>
+                                <p>html5</p>
+                            </li>
+                            <li>
+                                <p>css3</p>
+                            </li>
+                            <li>
+                                <p>jquery</p>
+                            </li>
+                            <li>
+                                <p>bootstrap</p>
+                            </li>
+                            <li>
+                                <p>angular</p>
+                            </li>
+                        </ul>
+                             <a href="#!" class="activator btn waves-effect waves-teal">Ver mas</a>
+                            <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Card Title
+                              <i class="material-icons right">close</i></span>
+                              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <h4>Web Design</h4>
+                    <div class="card mensaje-habilidades-lista">
+                        <ul>
+                            <li>
+                                <p>UX/UI</p>
+                            </li>
+                            <li>
+                                <p>Adobe Photoshop</p>
+                            </li>
+                            <li>
+                                <p>Adobe Illustrator</p>
+                            </li>
+                            <li>
+                                <p>Resposive Design</p>
+                            </li>
+                        </ul>
+                             <a href="#!" class="activator btn waves-effect waves-teal">Ver mas</a>
+                            <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Card Title
+                              <i class="material-icons right">close</i></span>
+                              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <h4>Otros</h4>
+                    <div class="card mensaje-habilidades-lista">
+                        <ul>
+                            <li>
+                                <p>Wordpress</p>
+                            </li>
+                        </ul>
+                             <a href="#!" class="activator btn waves-effect waves-teal">Ver mas</a>
+                            <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Card Title
+                              <i class="material-icons right">close</i></span>
+                              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 offset-s6 left-align">
+                    <div>
+                            <ul>
+                                <li>
+                                     
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="work" class="trabajos">
+             <div class="row">
+             <a href="<?php echo esc_url( home_url('/project-type/frontend/'));?>">
+                <div class="col s12 m6 trabajos-habilidad">
+                    <img class="responsive-img" src="<?php bloginfo('template_url')?>/img/frontend.jpg"> <!-- random image -->
+                    <div class="row">
+                        <div class="center-align trabajos-content col s12">
+                          <h3>Frontend</h3>
+                        </div> 
+                    </div>
+                </div>
+            </a> 
+            <a href="<?php echo esc_url( home_url('/project-type/webdesign/'));?>">   
+                <div class="col s12 m6 trabajos-habilidad">
+                    <img class="responsive-img" src="<?php bloginfo('template_url')?>/img/grap.jpg"> <!-- random image -->
+                    <div class="row">
+                        <div class="center-align trabajos-content col s12">
+                          <h3>WebDesign</h3>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            </a>
+            <div class="row">
+                <a href="#">
+                <div class="col s12 m4 trabajos-habilidad">
+                    <img class="responsive-img" src="<?php bloginfo('template_url')?>/img/photo.jpg"> <!-- random image -->
+                    <div class="row">
+                        <div class="center-align trabajos-content col s12">
+                          <h3>Photography</h3>
+                        </div> 
+                    </div> 
+                </div>
+                </a>
+                <a href="#">
+                <div class="col s12 m4 trabajos-habilidad">
+                    <img class="responsive-img" src="<?php bloginfo('template_url')?>/img/blog.jpg"> <!-- random image -->
+                    <div class="row">
+                        <div class="center-align trabajos-content col s12">
+                          <h3>Blog</h3>
+                        </div> 
+                    </div> 
+                </div>
+                </a>
+                <a href="#">
+                <div class="col s12 m4 trabajos-habilidad">
+                    <img class="responsive-img" src="<?php bloginfo('template_url')?>/img/photo.jpg"> <!-- random image -->
+                    <div class="row">
+                        <div class="center-align trabajos-content col s12">
+                          <h3>Otros</h3>
+                        </div> 
+                    </div> 
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>    
+       
+    <div class="parallax-container">  
+         <div class="section no-pad-bot row">
+            <div class="container banner">
+                 <div id="container-effect" class="container-effect">
+                            <ul id="scene" class="scene">
+                                <li class="layer" data-depth="0.80"><img src="<?php bloginfo('template_url')?>/img/layer1.png"></li>
+                                <li class="layer" data-depth="1.00"><img src="<?php bloginfo('template_url')?>/img/layer2.png"></li>
+                                <li class="layer" data-depth="1.00"><img src="<?php bloginfo('template_url')?>/img/layer3.png"></li>
+                                
+                            </ul>
+                        </div>  
+            </div>
+        </div>
+            <div class="parallax">
+                <img src="<?php bloginfo('template_url')?>/img/cover3.jpg">
+            </div>
+        </div>
+ 
+
+<?php get_footer(); ?>
